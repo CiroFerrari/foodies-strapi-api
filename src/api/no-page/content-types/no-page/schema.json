@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "no_pages",
+  "info": {
+    "singularName": "no-page",
+    "pluralName": "no-pages",
+    "displayName": "NoPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "noPageImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "noPageImageAlt": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

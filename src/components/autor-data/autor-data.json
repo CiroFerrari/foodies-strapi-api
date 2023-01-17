@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_autor_data_autor_data",
+  "info": {
+    "displayName": "autorData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "review": {
+      "displayName": "review",
+      "type": "component",
+      "repeatable": false,
+      "component": "review.review"
+    }
+  }
+}

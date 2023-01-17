@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_review_reviews",
+  "info": {
+    "displayName": "review"
+  },
+  "options": {},
+  "attributes": {
+    "nameReview": {
+      "type": "string"
+    },
+    "descriptionReview": {
+      "type": "richtext"
+    }
+  }
+}

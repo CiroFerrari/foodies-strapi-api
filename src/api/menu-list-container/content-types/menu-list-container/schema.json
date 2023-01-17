@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_list_containers",
+  "info": {
+    "singularName": "menu-list-container",
+    "pluralName": "menu-list-containers",
+    "displayName": "MenuListContainer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "inputSearchImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "inputSearchImageAlt": {
+      "type": "string"
+    },
+    "inputSearchPlaceholder": {
+      "type": "string"
+    },
+    "allCategoriesButtonText": {
+      "type": "string"
+    },
+    "mobileFilterTitle": {
+      "type": "string"
+    },
+    "paginationNextButtonText": {
+      "type": "string"
+    },
+    "appName": {
+      "type": "string"
+    },
+    "appStoreImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "appStoreAlt": {
+      "type": "string"
+    },
+    "playStoreImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "playStoreAlt": {
+      "type": "string"
+    },
+    "emptySearchImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "emptySearchAlt": {
+      "type": "string"
+    }
+  }
+}

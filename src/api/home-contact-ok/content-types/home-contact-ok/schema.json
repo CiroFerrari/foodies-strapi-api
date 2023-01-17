@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_contact_oks",
+  "info": {
+    "singularName": "home-contact-ok",
+    "pluralName": "home-contact-oks",
+    "displayName": "HomeContactOK"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageOK": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_heroes",
+  "info": {
+    "singularName": "menu-hero",
+    "pluralName": "menu-heroes",
+    "displayName": "MenuHero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mainImageAlt": {
+      "type": "string"
+    },
+    "backgroundMobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "backgroundDesktop": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleSpan": {
+      "type": "string"
+    }
+  }
+}

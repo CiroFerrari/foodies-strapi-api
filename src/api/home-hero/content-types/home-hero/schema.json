@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_heroes",
+  "info": {
+    "singularName": "home-hero",
+    "pluralName": "home-heroes",
+    "displayName": "HomeHero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundTablet": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hamburgerDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hamburgerMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "arrowRight": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "subtitleParagraph": {
+      "type": "string"
+    },
+    "titleDesktop": {
+      "type": "string"
+    },
+    "titleMobile": {
+      "type": "string"
+    },
+    "spanDesktop": {
+      "type": "string"
+    },
+    "spanTablet": {
+      "type": "string"
+    },
+    "spanMobile": {
+      "type": "string"
+    },
+    "titleTablet": {
+      "type": "string"
+    }
+  }
+}

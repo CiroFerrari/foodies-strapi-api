@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_branch_containers",
+  "info": {
+    "singularName": "home-branch-container",
+    "pluralName": "home-branch-containers",
+    "displayName": "HomeBranchContainer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "deliveryTitle": {
+      "type": "string"
+    },
+    "takeawayTitle": {
+      "type": "string"
+    },
+    "inputSearchPlaceHolder": {
+      "type": "string"
+    },
+    "emptySearchText": {
+      "type": "string"
+    },
+    "emptySearchImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mapImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "takeawayImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "deliveryImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "inputSearchImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "emptySearchImageAlt": {
+      "type": "string"
+    },
+    "mapImageAlt": {
+      "type": "string"
+    },
+    "inputSearchImageAlt": {
+      "type": "string"
+    }
+  }
+}

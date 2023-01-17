@@ -1,0 +1,144 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_download_apps",
+  "info": {
+    "singularName": "home-download-app",
+    "pluralName": "home-download-apps",
+    "displayName": "HomeDownloadApp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "appImageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "appImageTablet": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "appImageDesktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "appStoreImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "playStoreImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundVectorOne": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundVectorTwo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleSpan": {
+      "type": "string"
+    },
+    "pointOne": {
+      "type": "string"
+    },
+    "titlePointOne": {
+      "type": "string"
+    },
+    "subtitlePointOne": {
+      "type": "string"
+    },
+    "pointTwo": {
+      "type": "string"
+    },
+    "titlePointTwo": {
+      "type": "string"
+    },
+    "subtitlePointTwo": {
+      "type": "string"
+    },
+    "pointThree": {
+      "type": "string"
+    },
+    "titlePointThree": {
+      "type": "string"
+    },
+    "subtitlePointThree": {
+      "type": "string"
+    },
+    "appName": {
+      "type": "string"
+    },
+    "appImageAlt": {
+      "type": "string"
+    },
+    "backgroundVectorOneAlt": {
+      "type": "string"
+    },
+    "backgroundVectorTwoAlt": {
+      "type": "string"
+    },
+    "appStoreImageAlt": {
+      "type": "string"
+    },
+    "playStoreImageAlt": {
+      "type": "string"
+    }
+  }
+}
