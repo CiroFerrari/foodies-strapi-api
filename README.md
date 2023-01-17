@@ -1,3 +1,16 @@
+# This is the Foodies API with Strapi
+
+## Before all
+
+```
+- Please, contact the author to provide you the ".env" file.
+- Please, contact the author to provide you the database file.
+- You will need PostgreSQL for this database. You can download it here: https://www.postgresql.org/download/
+- After installation, start the Postgres server. Make sure you remember the Postgres port, username, and password (from the ".env" file) because we will use them in connecting Strapi to the Postgres.
+- Create a database in PostgreSQL, name it "foodies-db".
+- Add the ".env" file in the root directory of the Strapi project. It will make all the connections work.
+```
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
@@ -49,3 +62,9 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+---
+
+### `Author`
+
+Franco Ciro Ferrari 
