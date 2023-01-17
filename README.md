@@ -8,7 +8,15 @@
 - You will need PostgreSQL for this database. You can download it here: https://www.postgresql.org/download/
 - After installation, start the Postgres server. Make sure you remember the Postgres port, username, and password (from the ".env" file) because we will use them in connecting Strapi to the Postgres.
 - Create a database in PostgreSQL, name it "foodies-db".
+- Right click on the database "foodies-db" and click in "Restore". 
+- Format "Custom". Click on "Filename" to choose the backup file. (If you don't see the file, click on Format: "All files").
+- Select the backup file provided, and then click on "Select".
+- Finally, click on "Restore".
 - Add the ".env" file in the root directory of the Strapi project. It will make all the connections work.
+
+Then, a fast start of the whole project is:
+- Open the Strapi project in one window of VSCode and run the command "npm run develop". It will start Strapi server on localhost:1337
+- Open a new window of VSCode with the React App project, and run the command "npm start". It will start the React App on localhost:3000.
 ```
 
 # 🚀 Getting started with Strapi
