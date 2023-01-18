@@ -14,6 +14,8 @@
 - Finally, click on "Restore".
 - Add the ".env" file in the root directory of the Strapi project. It will make all the connections work.
 
+Note: The media files were configured to be uploaded in Cloudinary. This project has the integration and configuration ready!
+
 Then, a fast start of the whole project is:
 - Open the Strapi project in one window of VSCode and run the commands "npm install" and then "npm run develop". It will install the dependencies and then start Strapi server on localhost:1337
 - Open a new window of VSCode with the React App project, and run the commands "npm install" and then "npm start". It will install the dependencies and then start the React App on localhost:3000.
