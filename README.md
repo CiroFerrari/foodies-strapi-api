@@ -15,8 +15,8 @@
 - Add the ".env" file in the root directory of the Strapi project. It will make all the connections work.
 
 Then, a fast start of the whole project is:
-- Open the Strapi project in one window of VSCode and run the command "npm run develop". It will start Strapi server on localhost:1337
-- Open a new window of VSCode with the React App project, and run the command "npm start". It will start the React App on localhost:3000.
+- Open the Strapi project in one window of VSCode and run the commands "npm install" and then "npm run develop". It will install the dependencies and then start Strapi server on localhost:1337
+- Open a new window of VSCode with the React App project, and run the commands "npm install" and then "npm start". It will install the dependencies and then start the React App on localhost:3000.
 ```
 
 # 🚀 Getting started with Strapi
