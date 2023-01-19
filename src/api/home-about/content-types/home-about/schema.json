@@ -48,6 +48,16 @@
         "videos",
         "audios"
       ]
+    },
+    "arrowRight": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

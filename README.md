@@ -16,9 +16,14 @@
 
 Note: The media files were configured to be uploaded in Cloudinary. This project has the integration and configuration ready!
 
-Then, a fast start of the whole project is:
+Then, a fast start of the whole project on the last version is:
 - Open the Strapi project in one window of VSCode and run the commands "npm install" and then "npm run develop". It will install the dependencies and then start Strapi server on localhost:1337
 - Open a new window of VSCode with the React App project, and run the commands "npm install" and then "npm start". It will install the dependencies and then start the React App on localhost:3000.
+
+If you want to start the project on the previous version (without Cloudinary, with the media files in a local folder), follow these steps:
+- Ask the author to provide you the media files.
+- Open the Strapi project in one window of VSCode and run the commands "git checkout v1.0.0", "npm install" and then "npm run develop". It will install the dependencies and then start Strapi server on localhost:1337. You will have to upload the media files manually on Strapi's panel.
+- Open a new window of VSCode with the React App project, and run the commands "git checkout v2.0.1", "npm install" and then "npm start". It will install the dependencies and then start the React App on localhost:3000.
 ```
 
 # 🚀 Getting started with Strapi
